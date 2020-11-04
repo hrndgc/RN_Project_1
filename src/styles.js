@@ -9,7 +9,7 @@ export const topicItem = StyleSheet.create({
     text: {
         fontWeight: 'bold',
         color: 'white'
-    }
+    },
 });
 
 export const jobItem = StyleSheet.create({
