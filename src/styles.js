@@ -1,6 +1,5 @@
 import {StyleSheet, Dimensions} from 'react-native';
 
-
 export const topicItem = StyleSheet.create({
     container: {
         padding: 12,
@@ -21,7 +20,7 @@ export const jobItem = StyleSheet.create({
         borderWidth: 1,
         borderColor: '#bdbdbd'
     },
-    text: {
+    jobname: {
         fontWeight: 'bold',
     }
 });
@@ -38,3 +37,10 @@ export const introduction = StyleSheet.create({
     }
 })
 
+export const jobs = StyleSheet.create({
+    modalBackground: {
+        backgroundColor: "white",
+        borderRadius: 10,
+        padding: 5,
+    }
+})
