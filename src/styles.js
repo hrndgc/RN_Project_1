@@ -1,11 +1,11 @@
 import {StyleSheet, Dimensions} from 'react-native';
-import { TopicItem } from './components';
+
 
 export const topicItem = StyleSheet.create({
     container: {
         padding: 12,
         margin: 7,
-        borferRadius: 6
+        borderRadius: 6
     },
     text: {
         fontWeight: 'bold',
@@ -15,7 +15,12 @@ export const topicItem = StyleSheet.create({
 
 export const introduction = StyleSheet.create({
     banner: {
-        height: Dimensions.get('window') / 3,
-        justifyContent: 'center'
+        height: Dimensions.get('window').height / 3,
+        justifyContent: 'center',
+        alignItems: 'center'
     },
+    bannerText: {
+        fontSize: 25,
+        fontWeight: 'bold',
+    }
 })
