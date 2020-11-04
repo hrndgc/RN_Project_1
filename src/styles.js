@@ -41,6 +41,13 @@ export const jobs = StyleSheet.create({
     modalBackground: {
         backgroundColor: "white",
         borderRadius: 10,
-        padding: 5,
+        padding: 10,
+    },
+    jobTitle: {
+        fontSize: 20,
+        fontWeight: "bold",
+    },
+    jobDesc: {
+        padding: 5
     }
 })
