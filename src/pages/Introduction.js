@@ -63,7 +63,7 @@ const Introduction = (props) => {
       <View style={{flex: 1}}>
 
         <View style={introduction.banner}>
-            <Text style={introduction.bannerText}>Aradığınız dili seçin</Text>
+            <Text style={introduction.bannerText}>Select any language!</Text>
         </View>
 
         <ScrollView
